@@ -2,6 +2,7 @@ namespace diggers_fliers
 {
   public class Earthworms : IGround, IDig
   {
+    public string Name;
     public void Running()
     {
       System.Console.WriteLine("Get set! Go! Running!");

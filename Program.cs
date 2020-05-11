@@ -30,38 +30,53 @@ Lastly, in Main() create one (or more if you like) instances of each type of ani
 
 namespace diggers_fliers
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Ants nelly = new Ants();
-            BettaFish fishy = new BettaFish();
-            CopperheadSnake slither = new CopperheadSnake();
-            Earthworms slimy = new Earthworms();
-            Finches finchy = new Finches();
-            Gerbils gerby = new Gerbils();
-            Mice mickey = new Mice();
-            Parakeets para = new Parakeets();
-            Terrapins terra = new Terrapins();
-            TimberRattleSnake timby = new TimberRattleSnake();
+      Ants nelly = new Ants() { Name = "Nelly" };
+      BettaFish fishy = new BettaFish() { Name = "Fishy" };
+      CopperheadSnake slither = new CopperheadSnake() { Name = "Slither" };
+      Earthworms slimy = new Earthworms() { Name = "Slimy" };
+      Finches finchy = new Finches() { Name = "Finchy" };
+      Gerbils gerby = new Gerbils() { Name = "Gerby" };
+      Mice mickey = new Mice() { Name = "Mickey" };
+      Parakeets para = new Parakeets() { Name = "Para" };
+      Terrapins terra = new Terrapins() { Name = "Terra" };
+      TimberRattleSnake timby = new TimberRattleSnake() { Name = "Timby" };
 
-            Grounders.Container.Add(nelly);
-            Swimmers.Container.Add(fishy);
-            Grounders.Container.Add(slither);
-            Grounders.Container.Add(slimy);
-            Diggers.Container.Add(slimy);
-            Grounders.Container.Add(finchy);
-            Flyers.Container.Add(finchy);
-            Grounders.Container.Add(gerby);
-            Grounders.Container.Add(mickey);
-            Flyers.Container.Add(para);
-            Swimmers.Container.Add(terra);
-            Grounders.Container.Add(terra);
-            Grounders.Container.Add(timby);
+      Grounders.Container.Add(nelly);
+      Swimmers.Container.Add(fishy);
+      Grounders.Container.Add(slither);
+      Grounders.Container.Add(slimy);
+      Diggers.Container.Add(slimy);
+      Grounders.Container.Add(finchy);
+      Flyers.Container.Add(finchy);
+      Grounders.Container.Add(gerby);
+      Grounders.Container.Add(mickey);
+      Flyers.Container.Add(para);
+      Swimmers.Container.Add(terra);
+      Grounders.Container.Add(terra);
+      Grounders.Container.Add(timby);
+
+      foreach (IGround item in Grounders.Container)
+      {
+        System.Console.WriteLine($"Grounder: {item}");
+      }
+      foreach (IFly item in Flyers.Container)
+      {
+        System.Console.WriteLine($"Flyers: {item}");
+      }
+      foreach (ISwim item in Swimmers.Container)
+      {
+        System.Console.WriteLine($"Swimmers: {item}");
+      }
+      foreach (IDig item in Diggers.Container)
+      {
+        System.Console.WriteLine($"Diggers: {item}");
+      }
 
 
-        
-            
-        }
     }
+  }
 }

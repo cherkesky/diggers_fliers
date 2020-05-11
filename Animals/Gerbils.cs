@@ -1,7 +1,9 @@
 namespace diggers_fliers
 {
   public class Gerbils:IGround{
-  public void Running()
+    public string Name;
+
+    public void Running()
     {
       System.Console.WriteLine("Get set! Go! Running!");
     }

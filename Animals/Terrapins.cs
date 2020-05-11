@@ -2,6 +2,8 @@ namespace diggers_fliers
 {
   public class Terrapins : IGround, ISwim
   {
+    public string Name;
+
     public void Swimming()
     {
       System.Console.WriteLine("Swimming...");

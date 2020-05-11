@@ -2,6 +2,8 @@ namespace diggers_fliers
 {
   public class Finches : IFly, IGround
   {
+    public string Name;
+
     public int WingSpan{get; set;}
     public void Running()
     {

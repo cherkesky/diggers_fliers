@@ -1,6 +1,7 @@
 namespace diggers_fliers
 {
   public class Ants : IGround {
+    public string Name;
     public void Running(){
       System.Console.WriteLine("Get set! Go! Running!");
     }

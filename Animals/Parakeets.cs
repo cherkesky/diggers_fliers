@@ -3,6 +3,7 @@ namespace diggers_fliers
   public class Parakeets : IFly
   {
     public int WingSpan { get; set; }
+    public string Name;
 
     public void Flying()
     {

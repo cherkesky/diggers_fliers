@@ -1,6 +1,6 @@
 namespace diggers_fliers
 {
-  public class BetaFish:ISwim{
+  public class BettaFish:ISwim{
     public void Swimming(){
       System.Console.WriteLine("Swimming...");
     }

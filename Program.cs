@@ -33,7 +33,17 @@ namespace diggers_fliers
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Ants nelly = new Ants();
+            BettaFish fishy = new BettaFish();
+            CopperheadSnake slither = new CopperheadSnake();
+            Earthworms slimy = new Earthworms();
+            Finches finchy = new Finches();
+            Gerbils gerby = new Gerbils();
+            Mice mickey = new Mice();
+            Parakeets para = new Parakeets();
+            Terrapins terra = new Terrapins();
+            TimberRattleSnake timby = new TimberRattleSnake();
+
         }
     }
 }

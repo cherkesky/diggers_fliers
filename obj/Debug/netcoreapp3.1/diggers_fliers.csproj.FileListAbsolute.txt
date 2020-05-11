@@ -1,0 +1,12 @@
+/Users/cherkesky/workspace/csharp/exercises/diggers_fliers/bin/Debug/netcoreapp3.1/diggers_fliers.deps.json
+/Users/cherkesky/workspace/csharp/exercises/diggers_fliers/bin/Debug/netcoreapp3.1/diggers_fliers.runtimeconfig.json
+/Users/cherkesky/workspace/csharp/exercises/diggers_fliers/bin/Debug/netcoreapp3.1/diggers_fliers.runtimeconfig.dev.json
+/Users/cherkesky/workspace/csharp/exercises/diggers_fliers/bin/Debug/netcoreapp3.1/diggers_fliers.dll
+/Users/cherkesky/workspace/csharp/exercises/diggers_fliers/bin/Debug/netcoreapp3.1/diggers_fliers.pdb
+/Users/cherkesky/workspace/csharp/exercises/diggers_fliers/obj/Debug/netcoreapp3.1/diggers_fliers.csprojAssemblyReference.cache
+/Users/cherkesky/workspace/csharp/exercises/diggers_fliers/obj/Debug/netcoreapp3.1/diggers_fliers.csproj.CoreCompileInputs.cache
+/Users/cherkesky/workspace/csharp/exercises/diggers_fliers/obj/Debug/netcoreapp3.1/diggers_fliers.AssemblyInfoInputs.cache
+/Users/cherkesky/workspace/csharp/exercises/diggers_fliers/obj/Debug/netcoreapp3.1/diggers_fliers.AssemblyInfo.cs
+/Users/cherkesky/workspace/csharp/exercises/diggers_fliers/obj/Debug/netcoreapp3.1/diggers_fliers.dll
+/Users/cherkesky/workspace/csharp/exercises/diggers_fliers/obj/Debug/netcoreapp3.1/diggers_fliers.pdb
+/Users/cherkesky/workspace/csharp/exercises/diggers_fliers/obj/Debug/netcoreapp3.1/diggers_fliers.genruntimeconfig.cache

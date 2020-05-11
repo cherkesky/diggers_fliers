@@ -2,6 +2,6 @@ using System.Collections.Generic;
 
 namespace diggers_fliers{
   public class Flyers{
-    List<IFly> flyers = new List<IFly>();
+   public static List<IFly> Container = new List<IFly>();
   }
 }

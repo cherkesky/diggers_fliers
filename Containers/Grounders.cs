@@ -1,7 +1,9 @@
-namespace diggers_fliers{
 using System.Collections.Generic;
 
+namespace diggers_fliers{
+
   public class Grounders{
-    List<IGround> grounders = new List<IGround>();
+   public static List<IGround> Container = new List<IGround>();
   }
+  
 }

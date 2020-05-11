@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 /*
 As an avid animal lover, you have started your very own collection of creatures in your home. You can use the code from the lesson as a starting point to have interfaces for walking and swimming animals, but you want to have several other kinds in your collection.
@@ -44,6 +45,23 @@ namespace diggers_fliers
             Terrapins terra = new Terrapins();
             TimberRattleSnake timby = new TimberRattleSnake();
 
+            Grounders.Container.Add(nelly);
+            Swimmers.Container.Add(fishy);
+            Grounders.Container.Add(slither);
+            Grounders.Container.Add(slimy);
+            Diggers.Container.Add(slimy);
+            Grounders.Container.Add(finchy);
+            Flyers.Container.Add(finchy);
+            Grounders.Container.Add(gerby);
+            Grounders.Container.Add(mickey);
+            Flyers.Container.Add(para);
+            Swimmers.Container.Add(terra);
+            Grounders.Container.Add(terra);
+            Grounders.Container.Add(timby);
+
+
+        
+            
         }
     }
 }

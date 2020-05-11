@@ -2,6 +2,6 @@ namespace diggers_fliers{
 using System.Collections.Generic;
 
   public class Diggers{
-    List<IDig> diggers = new List<IDig>();
+    public static List<IDig> Container = new List<IDig>();
   }
 }

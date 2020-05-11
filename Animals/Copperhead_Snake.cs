@@ -1,4 +1,0 @@
-namespace diggers_fliers
-{
-  
-}

@@ -1,7 +1,7 @@
 namespace diggers_fliers
 {
-  public class Ants : IGround {
-    public void Running(){
+  public class CopperheadSnake:IGround{
+ public void Running(){
       System.Console.WriteLine("Get set! Go! Running!");
     }
     public void Walking(){
